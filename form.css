@@ -1,0 +1,47 @@
+*{
+  margin: 0%;
+  padding:0%;
+}
+
+.first_row{
+  display: flex;
+  justify-content: center;
+  height: 72px;
+  align-items: center;
+  margin-top: 44px;
+}
+.second_row{
+  display: flex;
+  justify-content: center;
+  height: 125px;
+  align-items: center;
+}
+.input-controls{
+  margin: 54px;
+  
+}
+.input-controls input{
+  padding: 10px 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: solid 2px black;
+  font-size: 15px;
+}
+.error{
+color: red;
+}
+button{
+  margin-left: 660px;
+  padding: 10px 20px;
+  font-size: 15px;
+  background: lightgrey;
+  border-radius: 5px;
+}
+
+button:hover{
+  background: green;
+}
+.input-controls label{
+  color: black;
+  font-weight: 600;
+}
